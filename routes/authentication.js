@@ -221,6 +221,7 @@ router.post('/register', (req, res) => {
                               }
                             }
                           } else {
+                            /*
                             let token = new emailConfirmationToken({
                               _userId: user._id,
                               token: crypto.randomBytes(16).toString('hex')
@@ -268,6 +269,7 @@ router.post('/register', (req, res) => {
                                 res.status(200).send('Eine Bestätigungs-Mail wurde an ' + user.email + ' gesendet.');
                               });
                             });
+                            */
                             res.json({
                               success: true,
                               message: 'Account erfolgreich angelegt. Sie können sich nun einloggen.'
