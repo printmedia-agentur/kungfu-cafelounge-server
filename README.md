@@ -15,7 +15,7 @@ Set the following environment variables
 | `NODE_ENV`   | `development`  | The server it's environment |
 | `HOST`   | `localhost`  | Define the server it's host |
 | `PORT`   | `8080`  | The port the server listens on |
-| `DB_URL`   | `...`  | ... |
+| `DB_URL`   | `...`  | The url of your MongoDB database instance |
 | `DB_NAME`   | `...`  | ... |
 | `ACUITY_API_URL`   | `...`  | Set the URL for the Acuity Scheduling API |
 | `ACUITY_API_USER`   | `...`  | Set the username for the Acuity Scheduling API |
