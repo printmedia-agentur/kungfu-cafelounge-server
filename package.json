@@ -1,28 +1,7 @@
 {
-  "name": "myhealform-server",
-  "version": "0.0.1",
-  "description": "myHEALFORM server.",
-  "keywords": [
-    "myhealform",
-    "api",
-    "acuity",
-    "scheduling",
-    "stripe",
-    "slack",
-    "server",
-    "middleware",
-    "express"
-  ],
-  "homepage": "https://github.com/dmnktoe/myhealform_2019#readme",
-  "bugs": {
-    "url": "https://github.com/dmnktoe/myhealform_2019/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dmnktoe/myhealform_2019.git"
-  },
-  "license": "ISC",
-  "author": "David Acosta",
+  "name": "kungfu-cafelounge-server",
+  "version": "1.0.0",
+  "description": "KungFu Cafelounge backend handles authentication, bookings and payments.",
   "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production node index.js",
@@ -31,6 +10,30 @@
     "start": "cross-env NODE_ENV=development nodemon index",
     "test": "NODE_ENV=staging nyc --reporter=lcov mocha --timeout 20000 --require @babel/register --exit"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/printmedia-agentur/kungfu-cafelounge-server.git"
+  },
+  "keywords": [
+    "kungfu",
+    "cafelounge",
+    "api",
+    "acuity",
+    "scheduling",
+    "stripe",
+    "slack",
+    "server",
+    "middleware",
+    "express",
+    "bookings",
+    "payments"
+  ],
+  "author": "Domenik Toefflinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/printmedia-agentur/kungfu-cafelounge-server/issues"
+  },
+  "homepage": "https://github.com/printmedia-agentur/kungfu-cafelounge-server#readme",
   "dependencies": {
     "@babel/core": "^7.12.10",
     "@babel/plugin-transform-runtime": "^7.12.10",
