@@ -13,20 +13,20 @@ Set the following environment variables
 | Variable | Default | Notes                          |
 | -------- | ------- | ------------------------------ |
 | `NODE_ENV`   | `development`  | The server it's environment |
-| `HOST`   | `localhost`  | ... |
+| `HOST`   | `localhost`  | Define the server it's host |
 | `PORT`   | `8080`  | The port the server listens on |
 | `DB_URL`   | `...`  | ... |
 | `DB_NAME`   | `...`  | ... |
-| `ACUITY_API_URL`   | `...`  | ... |
-| `ACUITY_API_USER`   | `...`  | ... |
-| `ACUITY_API_PASSWORD`   | `...`  | ... |
-| `EMAIL_SMTP_HOST`   | `...`  | ... |
-| `EMAIL_SMTP_NAME`   | `...`  | ... |
-| `EMAIL_SMTP_USERNAME`   | `...`  | ... |
-| `EMAIL_SMTP_PASSWORD`   | `...`  | ... |
-| `SLACK_API_KEY`   | `...`  | ... |
-| `STRIPE_PUBLISHABLE_KEY`   | `...`  | ... |
-| `STRIPE_SECRET_KEY`   | `...`  | ... |
+| `ACUITY_API_URL`   | `...`  | Set the URL for the Acuity Scheduling API |
+| `ACUITY_API_USER`   | `...`  | Set the username for the Acuity Scheduling API |
+| `ACUITY_API_PASSWORD`   | `...`  | Set the password for the Acuity Scheduling API |
+| `EMAIL_SMTP_HOST`   | `smtp.example.com`  | Set the SMTP hostname for sending emails |
+| `EMAIL_SMTP_NAME`   | `...`  | Set the senders name for outgoing emails |
+| `EMAIL_SMTP_USERNAME`   | `...`  | Set the SMTP username for sending emails |
+| `EMAIL_SMTP_PASSWORD`   | `...`  | Set the SMTP password for sending emails |
+| `SLACK_API_KEY`   | `...`  | Set Slack API key for outgoing Slack notifications |
+| `STRIPE_PUBLISHABLE_KEY`   | `...`  | Set Stripe publishable API key for payments |
+| `STRIPE_SECRET_KEY`   | `...`  | Set Stripe secret API key for payments |
 
 ## Development
 
