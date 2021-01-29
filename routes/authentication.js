@@ -467,8 +467,11 @@ router.post('/login', (req, res) => {
                   success: true,
                   message: 'Sie werden eingeloggt...',
                   token: token,
-                  username: user.username
+                  user: {
+                    username: user.username
+                  }
                 });
+                console.log('New login from: ' + user.username);
                 slack.alert({
                   text: 'Neuer Login bei myHEALFORM',
                   fields: {
